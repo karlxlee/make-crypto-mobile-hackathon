@@ -1,200 +1,137 @@
-# Optics Dashboard 📊
+# ⚡ Make Crypto Mobile 📱 Hackathon ⚡
+
+Make Crypto Mobile Hackathon is a 4-week hackathon, focused on growing Mobile DeFi (#MoFi), NFT's and developer tooling on the Celo platform.
+
+## Hackathon Tracks: 
+
+ - __DeFi Track:__ 
+ 	- Build decentralized finance applications
+ 	- Tools
+ 	- Infrastructure
+ - __NFT, Gaming and Creator Track:__ 
+ 	- Build an application to mint, sell or manage non-fungible tokens
+ - __Infrastructure and Web3 Track:__ 
+ 	- Build or update existing decentralize web applications
+ - __Green Track:__ 
+ 	- Build or update an SDK to improve developer resources
+ - __Interoperability Track:__ 
+ 	- Build or update cross-chain applications
+ 	- Cross-chain tooling
+
+## Timeline
+
+ - Hackathon Oct 8th - Nov 5th, 2021
+ - Hackathon Kick off - Oct 8th, 2021
+ - Submissions Due - Nov 5th, 2021
+ - Evaluations - November 6th-14th, 2021
+ - Winners announced - November 15th, 2021
+
+## Process
+**Hackathon participats will need to:**
+
+ 1. [Fork this repo](#hackathon-repo-process)
+    - Modify with your project details and merge
+    - When your project is ready for final submission, push your codebase & assets
+  2. Utilize [DevPost](https://mobiledefi.devpost.com/) to:
+	 - Manage and collaborate with your team
+	 - Submit your project for final evaluation
+
+## Hackathon Repo Process
+
+ 1. Fork this repo
+    - Press the Fork button
+ 2. Create project branch
+ 3. Make your changes within new branch!
+	 - Copy **Project_Name** folder & rename with your project name
+	 - Review [DevPost rules](https://github.com/celo-org/make-crypto-mobile-hackathon#hackathon-repo-process) to include requirements with your submission
+	 - Modify project details within your project folder **Readme.md**
+		 - Name
+		 - Description
+		 - Team members & roles
+		 - Hackathon track
+ 4. Add, commit, and push the changes
+	 - Add the files you've changed and commit them with a descriptive message.
+ 5. Submit your pull request
+    -  Submit to the maintainers for approval. Head over to the original repositories Pull Requests tab, you should see an automatic suggestion from GitHub to create a pull request from your new branch.
+    -  Utilize your project name as the title for your initial pull Requests
+    -  Provide a brief project description within the pull request comment
+
+***Congrats, your officially a Mobile DeFi Hackathon participant!***
+
+
+## Developer tools and resources
+
+This section contains information about some of the key tools and resources that will help developers start building applications on Celo.
+
+For a comprehensive list of resources and information, review [Celo Docs.](https://docs.celo.org/)
+
+### QUICK START GUIDES
+
+View the [Developer Code Examples page](https://docs.celo.org/developer-guide/start) to get started using the Celo SDKs with guided coding exercises.
+
+### TOOLS
+
+#### SDKs
+
+-   [ContractKit](https://docs.celo.org/developer-guide/contractkit)
+-   Javascript package of Celo blockchain utilities
+-   Manage connections to the Celo blockchain, accounts, send transactions, interact with smart contracts, etc.
+-   A set of wrappers around the core protocol smart contracts to easily connect with contracts related to governance, validators, on-chain exchange, etc.
+-   Includes [web3.js](https://web3js.readthedocs.io/en/v1.2.4/)
+-   [Celo Ethers.js Wrapper](https://github.com/celo-tools/celo-ethers-wrapper) (experimental)
+-   A minimal wrapper to make [ethers.js](https://docs.ethers.io/v5/) compatible with the Celo network
+-   [use-contractkit](https://github.com/celo-tools/use-contractkit)
+-   A [Web3Modal](https://web3modal.com/)-like experience that injects ContractKit into your web-based application. Supports a variety of different wallets, including but not limited to Valora, Ledger, Metamask (Celo compatible fork) and any WalletConnect compatible wallets
+-   [DappKit](https://docs.celo.org/developer-guide/dappkit)
+-   Easily connect to the [Valora](http://valoraapp.com/) wallet with your React Native mobile application
+-   Valora manages user account, private keys and transaction signing, so you can focus on building your dapp
+-   Learn more and see the code with the [Dappkit truffle box](https://github.com/critesjosh/celo-dappkit)
+-   [Python SDK](https://github.com/blaize-tech/celo-sdk-py)
+-   [Java SDK](https://github.com/blaize-tech/celo-sdk-java)
+
+
+#### Infrastructure
+
+-   [Valora](https://valoraapp.com/) provides a clean, intuitive UI where users can send transactions and interact with smart contracts
+-   [Forno](https://stackedit.io/developer-guide/forno)
+-   Node access service so you can connect your dapp to the Celo blockchain without having to run node infrastructure
+-   [ODIS](https://stackedit.io/developer-resources/contractkit/odis.md)
+-   Oblivious decentralized identity service
+-   Lightweight identity layer that makes it easy to send cryptocurrency to a phone number
+-   Blockscout block explorers
+-   [Alfajores testnet](http://alfajores-blockscout.celo-testnet.org/) & [mainnet](http://explorer.celo.org/)
+-   [Stats.celo.org](http://stats.celo.org/) to check network activity and health
 
-Monitor the activity, metrics, and health of Celo's Optics cross-chain bridges in a single dashboard.
 
-### Live Demo: https://optics-dashboard.vercel.app/
+#### Networks
 
-This is a submission for Celo's Make Crypto Mobile Hackathon.
+-   [Alfajores Testnet](https://docs.celo.org/getting-started/alfajores-testnet)
+-   [Faucet](https://celo.org/developers/faucet) for free testnet CELO and cUSD
+-   [Forno](https://docs.celo.org/developer-guide/forno) supports connections to alfajores
+-   Requires Alfajores Celo wallet for mobile device testing (please request, support@clabs.co)
+-   [Baklava testnet](https://docs.celo.org/getting-started/baklava-testnet) for validators and testing protocol changes
 
-## Contents
 
-- [Intro](#intro)
+#### Ethereum Tools
 
-- [Optics Dashboard](#optics-dashboard) (features and video demos)
+-   Similarities between Celo and Ethereum means you can use many of the most popular Ethereum developer tools.
+-   Celo supports the EVM, so tools for writing smart contracts in Solidity (or any language that compiles to EVM bytecode) are compatible with Celo
+-   ERC20, NFT (ERC721) and other smart contract interface standards are supported, see [Celo for Ethereum Developers](https://docs.celo.org/developer-guide/celo-for-eth-devs)
+- [Truffle](https://www.trufflesuite.com/)
+- [OpenZeppelin](https://openzeppelin.com/)
+- [Remix](https://remix.ethereum.org/)
 
-- [Technical docs](#technical-documentation)
+#### Ongoing projects
 
-## Intro
+-   [Community projects](https://docs.celo.org/developer-guide/celo-dapp-gallery)
+-   [Grant recipients](https://celo.org/experience/grants/directory)
 
-![optics-dashboard-cover](https://user-images.githubusercontent.com/30199031/144269567-90fbc5e6-fe83-47df-a6ad-b92746bb8b37.png)
+#### Web wallets
+  -  [celowallet.app](https://celowallet.app/)
+  -  [Celo Terminal](https://github.com/zviadm/celoterminal/)
 
 
+#### Community
 
-### Project details
-
-##### Hackathon Track
-
-Interoperability Track
-
-##### Region location
-
-London, UK
-
-##### Team
-
-Karl Lee, dev
-
-
-### Problem
-
-'The next frontier in blockchain technology is communication', as stated by the team behind Wormhole bridge.
-
-With DeFi apps, protocols, and financial products appearing in different crypto ecosystems, a major barrier arises.
-Capital flows across chains are restricted by limited communications between them.
-
-Without cross-chain communication, **crypto is forced to flow back to centralized exchanges or even to fiat off-ramps** in order to cross different chains.
-Decentralized finance cannot be so decentralized after all if we rely on centralized actors for bridging.
-
-
-
-### Why Optics? (A protocol designed by Celo)
-
-Bridging assets across chains is often costly due to gas fees.
-
-According to [Celo's documentation](https://docs.celo.org/celo-codebase/protocol/optics), Optics is expected to cut '90% of gas costs' compared to a traditional cross-chain system. This is because Optics is a protocol that facilitates communication without header verification.
-
-
-
-### Barriers to adoption and development of Optics
-
-Optics is currently in a beta release phase.
-
-While security is always a key issue for cross-chain bridges, there is also a lack of information on how Optic's bridges are currently being utilized.
-
-For Optics, we are currently lacking:
-
-- Official or community dashboard for monitoring activity on Optics
-- Analytics for Optics
-- A way for individual users to track their bridging activity
-
-### Motivation behind the project
-
-Insights and analytics into cross-chain bridging seem to be far and few between. How much crypto are users bridging? Which currencies are bridged the most? Who are the most intensive users of bridges?
-
-Could trends in bridging activity indicate new opportunities for traders, devs, and protocols?
-
-This project was an opportunity to draw out and discover insights into Optics usage that were unavailable.
-
-I wanted to combine and apply my previous experience of designing front-ends with crypto-driven data to a more complex, multi-chain application.
-
-Previous projects: 
-- LUNAtic score calculator for Terra users: https://github.com/karlxlee/lunatic-score-calculator
-- PolyDAO analytics: https://github.com/karlxlee/polydao-analytics
-- Previous hackathon wins: https://gitcoin.co/karlxlee
-
-
-<br>
-
-## Optics Dashboard
-
-Optics Dashboard serves several stakeholders:
-
-- Provides activity and trends for bridge operators and developers
-
-- Provides insights for blockchain teams that are looking to potentially integrate with Optics
-
-- Exposes opportunities for cross-chain apps, protocols, and DAOs, that can integrate Optics to increase liquidity
-
-- Allows bridging users to monitor their transactions in one place
-
-### Features
-#### Track key metrics with Overview
-From bridge balance to transaction count, see key metrics, visualized.
-
-https://user-images.githubusercontent.com/30199031/143970983-0b942621-6459-4f1b-b062-639edcba09cd.mp4
-
-<br>
-
-#### Explore trends
-See the assets that are most popular with Optics users.
-
-https://user-images.githubusercontent.com/30199031/143971464-e60dc68c-8cc4-4cc2-a515-28fb41ffb497.mp4
-
-<br>
-
-#### Check smart contract activity
-Monitor the key contracts that power Optics using the Health tab. See smart contract activity over the past 24 hours in one place.
-
-https://user-images.githubusercontent.com/30199031/143971971-39288007-be1f-43c5-8ad4-532224c992b0.mp4
-
-<br>
-
-#### Search for bridging activity by address
-
-https://user-images.githubusercontent.com/30199031/143972669-19c0117d-b344-41ca-b388-b08877d626b5.mp4
-
-Want to see Optics activity for a specific address (including your own)? With Optics Dashboard you can see your bridging activity in seconds.
-
-<br>
-
-#### Compare Optics fees with other cross-chain bridges
-
-
-https://user-images.githubusercontent.com/30199031/144089167-248e3533-feb9-4a43-8b7d-912678ef841e.mp4
-
-<br>
-
-### URLs
-
-Demo: https://optics-dashboard.vercel.app/
-
-Codebase: https://github.com/karlxlee/make-crypto-mobile-hackathon/tree/project/optics_dashboard
-
-<br>
-
-### Next steps
-
-- Integrate bridge activity to and from Celo blockchain
-- Finish fee comparison feature
-- Explore activity on a specific day
-- Explore activity for a specific asset
-
-
-## Technical documentation
-
-Optics Dashboard needed to fulfil several technical needs:
-- Fetch the latest blockchain data
-- Visualize many data points in a useful way to stakeholders
-- Provide a speedy user interface
-- Allows for fast changes and improvements in both the frontend and backend
-
- 
- 
-For these reasons, the technology chosen for this app was:
-- Fast and modular front-end using [Next.js](https://nextjs.org/) and [Chakra UI](https://chakra-ui.com/)
-- Effective visualization library using [ApexCharts](https://apexcharts.com/)
-- Flexible and easily-editable backend using [Flipside Crypto](https://flipsidecrypto.com/)
-
-![optics-dashboard-architecture](https://user-images.githubusercontent.com/30199031/144093768-5a06a55f-c0dc-4ef3-8fef-d6ab0feb1da4.png)
-
-### SQL data queries
-SQL queries expose the key metrics that Optics Dashboard displays.
-You can find a list of the SQL queries used below.
-
-| Query name                                                  | Additional parameters | Blockchain | SQL query                                                                            | Exposed API                                                                                    |
-|-------------------------------------------------------------|-----------------------|------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| Optics Ethereum daily total balance                         |                       | eth        | https://app.flipsidecrypto.com/velocity/queries/9430ef32-ea4b-4681-9a11-bde367275ac9 | https://api.flipsidecrypto.com/api/v2/queries/9430ef32-ea4b-4681-9a11-bde367275ac9/data/latest |
-| Optics volume on Ethereum                                   |                       | eth        | https://app.flipsidecrypto.com/velocity/queries/35ac2a96-4b1f-4d0e-a222-e9a2a2303ce4 | https://api.flipsidecrypto.com/api/v2/queries/35ac2a96-4b1f-4d0e-a222-e9a2a2303ce4/data/latest |
-| Optics number of users on Ethereum                          |                       | eth        | https://app.flipsidecrypto.com/velocity/queries/7d29928a-d705-4987-a7d6-9dc6bbc9b1f8 | https://api.flipsidecrypto.com/api/v2/queries/7d29928a-d705-4987-a7d6-9dc6bbc9b1f8/data/latest |
-| Optics transaction frequency on Ethereum                    |                       | eth        | https://app.flipsidecrypto.com/velocity/queries/94931e9c-b454-4ffb-bb96-2442b67de868 | https://api.flipsidecrypto.com/api/v2/queries/94931e9c-b454-4ffb-bb96-2442b67de868/data/latest |
-| Optics Ethereum top assets received by volume last 24 hours | 24hours               | eth        | https://app.flipsidecrypto.com/velocity/queries/22d63880-0ee4-4b94-b574-b0106cc7e438 | https://api.flipsidecrypto.com/api/v2/queries/22d63880-0ee4-4b94-b574-b0106cc7e438/data/latest |
-| Optics Polygon top assets received by volume last 7 days    | 7days                 | eth        | https://app.flipsidecrypto.com/velocity/queries/9a05103f-2ad2-4f98-aa95-690dee529ec7 | https://api.flipsidecrypto.com/api/v2/queries/9a05103f-2ad2-4f98-aa95-690dee529ec7/data/latest |
-| Optics Ethereum top assets received by volume last month    | 1month                | eth        | https://app.flipsidecrypto.com/velocity/queries/6d14b23a-64b2-479f-a0db-1d64cc7de8fb | https://api.flipsidecrypto.com/api/v2/queries/6d14b23a-64b2-479f-a0db-1d64cc7de8fb/data/latest |
-|                                                             |                       |            |                                                                                      |                                                                                                |
-
-### Local development
-
-- Clone the repo
-- Install modules
-- Run `yarn dev`
-- Open http://localhost:3000/
-
-### Deploy
-
-Deploy in one click using Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkarlxlee%2Fmake-crypto-mobile-hackathon%2Ftree%2Fproject%2Foptics_dashboard%2Fcodebase)
-
-#### License
-
-This repository is available under the MIT license. See the LICENSE file.
+-   Join our [Discord](https://chat.celo.org/)
+-   [Discourse Forum](https://forum.celo.org/)
